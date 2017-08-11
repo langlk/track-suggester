@@ -80,6 +80,7 @@ input {
   .jumbotron {
     padding-bottom: 15px;
   }
+
   .jumbotron h1 {
     font-size: 30px;
   }
@@ -88,6 +89,12 @@ input {
      font-size: 18px;
      margin-top: 12px;
      margin-bottom: 5px;
+  }
+
+  button.btn {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .logo {
