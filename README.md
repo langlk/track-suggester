@@ -6,7 +6,7 @@
 
 ## Description
 
-_This is a quiz to help potential students determine what track would be best for them at Epicodus. After answering a short series of questions in an HTML form, it uses JavaScript to determine and display the recommended track._
+_This is a quiz to help potential students determine what track would be best for them at Epicodus. After the user answers a short series of questions via HTML forms, site uses JavaScript to determine and display the recommended track._
 
 ## Setup/Installation Requirements
 
