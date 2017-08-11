@@ -1,9 +1,13 @@
-b, form{
+.container {
   font-family: 'Cairo', sans-serif;
 }
 
-h1 {
+.jumbotron {
   font-family: 'Jura', sans-serif;
+}
+
+form#questions > div {
+  display: none;
 }
 
 .results > div {

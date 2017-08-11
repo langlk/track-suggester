@@ -1,5 +1,15 @@
 $(document).ready(function() {
-  $("form#questions").submit(function(event) {
+  $("#start").click(function() {
+    $(".intro").slideToggle();
+    $("#questions div:first-child").slideToggle();
+  });
+
+  $(".next").click(function() {
+    $(this).parent().slideToggle();
+    $(this).parent().next().slideToggle();
+  });
+
+  $("#questions").submit(function(event) {
     var scores = [0,0,0,0,0];
     var questionNames = ["question1", "question2", "question3", "question4", "question5"];
 
@@ -9,17 +19,17 @@ $(document).ready(function() {
     });
 
     var indexOfMax = scores.indexOf(Math.max.apply(null, scores));
-    $("form#questions").hide();
+    $("#questions").slideToggle();
     if (indexOfMax === 0) {
-      $(".ruby-rails").toggle();
+      $(".ruby-rails").slideToggle();
     } else if (indexOfMax === 1) {
-      $(".php-drupal").show();
+      $(".php-drupal").slideToggle();
     } else if (indexOfMax === 2) {
-      $(".java-android").show();
+      $(".java-android").slideToggle();
     } else if (indexOfMax === 3) {
-      $(".css-design").show();
+      $(".css-design").slideToggle();
     } else {
-      $(".csharp-dotnet").show();
+      $(".csharp-dotnet").slideToggle();
     }
     event.preventDefault();
   });

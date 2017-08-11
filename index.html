@@ -12,7 +12,12 @@
     <div class="container">
       <div class="jumbotron">
         <h1>Epicodus Track Suggester</h1>
+        <p>A Decision Aid by Kelsey Langlois</p>
+      </div>
+
+      <div class="intro">
         <p>There are a lot of programming languages to choose from. Answer a few questions here for a suggestion about which track might be best for you!</p>
+        <p class="clickable" id="start">Get Started</p>
       </div>
 
       <form id="questions">
@@ -48,6 +53,7 @@
               Working on a company's internal database system.
             </label>
           </div>
+          <p class="clickable next">Next</p>
         </div>
         <div class="form-group">
           <label for="question2">Which of these existing projects would you like to work on?</label>
@@ -81,6 +87,7 @@
               <a href="https://www.visualstudio.com/">Visual Studio</a>
             </label>
           </div>
+          <p class="clickable next">Next</p>
         </div>
         <div class="form-group">
           <label for="question3">What sort of company would you like to work for?</label>
@@ -114,6 +121,7 @@
               A larger company.
             </label>
           </div>
+          <p class="clickable next">Next</p>
         </div>
         <div class="form-group">
           <label for="question4">How much do you like front-end vs back-end development?</label>
@@ -147,6 +155,7 @@
               I have a preference towards back-end development, but don't mind front-end.
             </label>
           </div>
+          <p class="clickable next">Next</p>
         </div>
         <div class="form-group">
           <label for="question5">Which of the following do you care about most?</label>
@@ -180,8 +189,13 @@
               Support and Tools
             </label>
           </div>
+          <p class="clickable next">Next</p>
         </div>
-        <button type="submit" class="btn">Submit</button>
+        <div class="form-group">
+          <p>You've completed the questions! You can change your responses, or submit to see your suggested track.</p>
+          <button type="submit" class="btn">Submit</button>
+        </div>
+
       </form>
 
       <div class="results">
