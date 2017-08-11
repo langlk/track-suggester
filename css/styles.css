@@ -70,3 +70,18 @@ input {
   margin-left: 5%;
   padding-top: 20px;
 }
+
+@media screen and (max-width: 550px) {
+  .jumbotron {
+    padding-bottom: 15px;
+  }
+  .jumbotron h1 {
+    font-size: 30px;
+  }
+
+  .jumbotron p {
+     font-size: 18px;
+     margin-top: 12px;
+     margin-bottom: 5px;
+  }
+}
