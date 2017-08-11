@@ -1,7 +1,7 @@
 $(document).ready(function() {
   // Sets up variables for tracking score and which question the user is on.
   // Each value of scores equals number of answers that point towards a track:
-  // 0: Ruby, 1: PHP, 2: Java, 3: CSS, 4: C#. 
+  // 0: Ruby, 1: PHP, 2: Java, 3: CSS, 4: C#.
   var scores = [0,0,0,0,0];
   var questionNames = ["question1", "question2", "question3", "question4", "question5"];
   // Tracks which question the user is answering.
@@ -24,12 +24,14 @@ $(document).ready(function() {
       var answer = parseInt($("input:radio[name=" + questionNames[count] + "]:checked").val());
       scores[answer] += 1;
       count += 1;
+
       $(this).slideToggle();
       $(this).next().slideToggle();
     } else {
       // End of questionaire:
       // Get maximum score, hide current section, then show correct result.
       var indexOfMax = scores.indexOf(Math.max.apply(null, scores));
+      
       $(this).slideToggle();
       if (indexOfMax === 0) {
         $(".ruby-rails").slideToggle();
