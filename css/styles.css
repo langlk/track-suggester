@@ -1,3 +1,11 @@
+b, form{
+  font-family: 'Cairo', sans-serif;
+}
+
+h1 {
+  font-family: 'Jura', sans-serif;
+}
+
 .results > div {
   display: none;
 }
