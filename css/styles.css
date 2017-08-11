@@ -1,5 +1,6 @@
 .jumbotron {
   padding-bottom: 2rem;
+  background-color: #c1dfff;
 }
 
 .jumbotron .container{
@@ -31,6 +32,10 @@
 .clickable:hover {
   text-decoration: underline;
   cursor: pointer;
+}
+
+.btn-default {
+  background-color: #e8f3ff;
 }
 
 form.questions {
