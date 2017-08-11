@@ -3,7 +3,29 @@
 }
 
 .jumbotron {
+  padding-bottom: 2rem;
+}
+
+.jumbotron .container{
   font-family: 'Jura', sans-serif;
+  max-width: 960px;
+}
+
+.jumbotron p {
+  margin-top: 25px;
+}
+
+.container.main {
+  max-width: 800px;
+}
+
+.clickable {
+  color: #007bff;
+}
+
+.clickable:hover {
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 form#questions > div {
