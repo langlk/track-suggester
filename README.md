@@ -15,10 +15,6 @@ _You can view this project on GitHub pages at [langlk.github.io/track-suggester]
 * Clone this repository
 * Open index.html in web browser of your choice
 
-## Known Bugs
-
-_Currently if a user presses the Enter key before the "Submit" button is showing, the form will submit and the result will be displayed. Clicking the "Start" and "Next" links only is recommended for now._
-
 ## Support and contact details
 
 _Please contact kels.langlois@gmail.com with questions, comments, or issues._

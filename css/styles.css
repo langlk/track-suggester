@@ -33,7 +33,7 @@
   cursor: pointer;
 }
 
-form#questions > div {
+form.questions {
   display: none;
 }
 
